@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roblox Game Adventure</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html" >Home</a></li>
+      <li><a href="character.html">Character Selection</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <h1 class="center">Welcome to the Roblox Game Adventure!</h1>
+  <p class="center">Choose your options:</p>
+  <form action="startgame.html" method="get">
+    <section>
+      <fieldset>
+        <legend>Choose your character:</legend>
+        <label class="radio-inline">
+          <input type="radio" name="character" value="1character1.html">
+          <div class="option">
+            <img src="image/1character1.png" alt="Character 1" class="option-image">
+            <figcaption>Character 1</figcaption>
+          </div>
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="character" value="2character2.html">
+          <div class="option">
+            <img src="image/2character2.png" alt="Character 2" class="option-image">
+            <figcaption>Character 2</figcaption>
+          </div>
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="character" value="3character3.html">
+          <div class="option">
+            <img src="image/3character3.png" alt="Character 3" class="option-image">
+            <figcaption>Character 3</figcaption>
+          </div>
+        </label>
+      </fieldset>
+    </section>
+    <section>
+      <fieldset>
+        <legend>Choose your game mode:</legend>
+        <label class="radio-inline">
+          <input type="radio" name="mode" value="explore.html">
+          Explore
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="mode" value="battle.html">
+          Battle
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="mode" value="puzzle.html">
+          Puzzle
+        </label>
+      </fieldset>
+    </section>
+    <input type="submit" value="Start Game" class="start-button">
+  </form>
+</body>
+</html>
